@@ -1,0 +1,30 @@
+{
+  "name": "neighborhoods/bakery-fitness-UseCase41",
+  "description": "UseCase41 usage of the Bakery project.",
+  "type": "library",
+  "license": "proprietary",
+  "keywords": [
+    "bakery"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:neighborhoods/Bakery.git"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.2",
+    "neighborhoods/bakery": "dev-master",
+    "symfony/dependency-injection": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Neighborhoods\\BakeryFitnessUseCase41\\": [
+        "src"
+      ]
+    }
+  }
+}
