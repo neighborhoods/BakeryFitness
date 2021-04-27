@@ -1,5 +1,5 @@
 {
-  "name": "neighborhoods/bakery-fitness-UseCase41",
+  "name": "neighborhoods/bakery-fitness-use-case41",
   "description": "UseCase41 usage of the Bakery project.",
   "type": "library",
   "license": "proprietary",
@@ -17,7 +17,7 @@
   },
   "require": {
     "php": "^7.2",
-    "neighborhoods/bakery": "dev-master",
+    "neighborhoods/bakery": "1.0.1-alpha",
     "symfony/dependency-injection": "^4.1"
   },
   "autoload": {
