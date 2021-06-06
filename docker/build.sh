@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-cd -P -- "$(dirname -- "$0")/.." # From https://stackoverflow.com/a/17744637
+cd -P -- "$(dirname -- "$0")/../UseCase41" # From https://stackoverflow.com/a/17744637
 
 # Most things in Docker will be run as root
 export COMPOSER_ALLOW_SUPERUSER=1
@@ -32,6 +32,6 @@ fi
 
 if [ "$INSTALL_XDEBUG" = true ]; then
     echo "Installing the xdebug extension..."
-    pecl install xdebug-2.7.0alpha1
+    pecl install xdebug-3.0.4
     docker-php-ext-enable xdebug
 fi

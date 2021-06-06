@@ -1,4 +1,4 @@
-FROM neighborhoods/php-fpm-phalcon:php7.2_phalcon3.4
+FROM neighborhoods/php-fpm:8.0
 ARG PROJECT_NAME=bakery_fitness
 
 # COMPOSER_TOKEN can also be passed via file using COMPOSER_GITHUB_TOKEN
