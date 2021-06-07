@@ -17,7 +17,7 @@
   },
   "require": {
     "php": "^8",
-    "neighborhoods/bakery": "dev-PREF-291",
+    "neighborhoods/bakery": "1.1",
     "symfony/dependency-injection": "^4.4"
   },
   "autoload": {
