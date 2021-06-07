@@ -16,9 +16,9 @@
     "sort-packages": true
   },
   "require": {
-    "php": "^7.2",
-    "neighborhoods/bakery": "1.0.1",
-    "symfony/dependency-injection": "^4.1"
+    "php": "^8",
+    "neighborhoods/bakery": "1.1",
+    "symfony/dependency-injection": "^4.4"
   },
   "autoload": {
     "psr-4": {
